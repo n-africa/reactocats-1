@@ -65,8 +65,8 @@ body > main {
 
 .octodex-image > a > img {
   height: 20rem;
-  border: 2rem;
-  border-color: grey;
+  border: 0.1rem solid lightgrey;
+  border-radius: 0.6rem;
 }
 
 body > .octodex-box > footer {
@@ -78,7 +78,6 @@ body > .octodex-box > footer {
 .name-of-octocats {
   display: flex;
   justify-content: left;
-  justify-content: space-between;
 }
 
 .authors {
