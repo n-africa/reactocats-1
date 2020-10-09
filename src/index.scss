@@ -26,10 +26,15 @@ header > nav {
   border-bottom: 0.07rem solid lightgrey;
   position: sticky;
 }
+
 a:link {
   text-decoration: none;
   padding: 0.5rem;
   font-size: 0.8rem;
+  color: #24292e;
+}
+
+a:visited {
   color: #24292e;
 }
 
@@ -66,7 +71,7 @@ body > main {
 .octodex-image > a > img {
   height: 20rem;
   border: 0.1rem solid lightgrey;
-  border-radius: 0.6rem;
+  border-radius: 0.5rem;
 }
 
 body > .octodex-box > footer {

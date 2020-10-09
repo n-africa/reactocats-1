@@ -8,6 +8,8 @@ class App extends Component {
       <div>
         <Header></Header>
         <Octocat></Octocat>
+        <Octocat></Octocat>
+        <Octocat></Octocat>
       </div>
     )
   }
