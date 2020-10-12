@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export class Header extends Component {
   render() {
     return (
-      <div>
+      <>
         <header>
           <nav>
             <div class="octodex-header">
@@ -36,7 +36,7 @@ export class Header extends Component {
             </div>
           </nav>
         </header>
-      </div>
+      </>
     )
   }
 }
